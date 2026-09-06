@@ -1,0 +1,4 @@
+interface:
+  display_name: "3DASTRA"
+  short_description: "Image-first direction for reference-led 3D"
+  default_prompt: "Use $3dastra to create or refine a 3D scene from visual references and validate its appearance in the final renderer."
