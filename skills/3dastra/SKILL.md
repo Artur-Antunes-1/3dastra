@@ -35,6 +35,18 @@ Choose by silhouette, proportion, composition, lighting, materials, and fitness 
 
 **Reference priority: the user's current intent → chosen image → derived sheets → implementation convenience.**
 
+### Image generation with ChatGPT Images 2.5
+
+Prefer the built-in `image_gen` tool for concepts, reference-led edits, construction views, and surface studies. OpenAI announced ChatGPT Images 2.5 for Codex on 2026-09-08; use the current integrated image workflow rather than assuming the older GPT-Image-2 CLI is required. Follow the installed imagegen skill for invocation, reference images, and file handling.
+
+The integrated tool may not expose a model selector or return a backend model ID. Do not invent a `model` argument, infer the exact backend from image quality or the launch announcement, or promise Flare/Sunburst selection when the tool does not provide it. Record the tool, prompt, references, returned metadata, and actual output path; state when the backend version is not exposed.
+
+When an explicitly selected API model is needed, preserve that request and verify the current official API identifier and account availability before calling it. **GPT-Image-2.5 Flare** is intended for faster iteration; **GPT-Image-2.5 Sunburst** is intended for detailed creative work and precise repeated edits. Prefer Sunburst for demanding production-reference refinement when explicitly selectable, and Flare for broad exploration. Do not silently downgrade to an earlier model or switch to a third-party paid generator. Use the authorized API/CLI workflow only if it actually supports the selected model; an unavailable selector is a limitation to disclose, not a parameter to fabricate.
+
+Use chosen images as references for focused edits, preserving identity, proportions, framing, and already approved materials. Keep originals. Copy project-bound outputs into the project and verify dimensions, transparency, and suitability before applying them as maps. Improved generation does not replace reconstruction or validation in the destination renderer.
+
+Source verified 2026-09-08: [OpenAI — Introducing ChatGPT Images 2.5](https://openai.com/index/introducing-chatgpt-images-2-5/). Recheck official guidance when exact model availability or API parameters matter.
+
 ## 2. Resolve construction questions
 
 Read [prompts and references](references/prompts.md). Generate only the views, assembly details, surface studies, or textures that answer an actual production question. Use the chosen image as an editing reference when the tool supports it.

@@ -4,7 +4,7 @@
   "license": "MIT",
   "files": {
     "LICENSE": "e9e698daa4f96ebcbfdd2b242711f216b6bc455042efb9c3586e5a9ce5154ddb",
-    "SKILL.md": "1df65d6709cc2b4534ed845e2e9538293e3c425048687d053b1b94494778a4a1",
+    "SKILL.md": "41e2f442c0f5e98c53ee23ab14fd623a5d9e7dfdd7319af1086aa8983a5323c5",
     "agents/openai.yaml": "e79b5ef61a17f3ef68229ff78c55a6dd85a1e0102cf48f64133cfbcebd54b5ae",
     "assets/direction-template.md": "0041a7649afc9310569ee115fda50ee89c3cd6289f809641443f0c4e539aeed8",
     "references/comparison-performance.md": "789afd5f648fb9b32f58bd7172ac21c1a1f98012e417deebce2975033e356334",
@@ -12,5 +12,5 @@
     "references/prompts.md": "cc8434f26cf1156d46a5ea0296d4144e82bbdd97dc22216c3462b0099bc36469",
     "scripts/inspect_image.py": "a39275223df1713dbdb4221ce0963cc80d57651ed1286830f7ea40e4eca2655d"
   },
-  "zip_sha256": "383353af728cbf9cf6685882e70a76ad1a80b7c8e7987b1a3ed1bfa266307444"
+  "zip_sha256": "2f14ff27f4926d39ed81dce03bdc10c17629e2b5013f39dae7d5b07041ecff90"
 }
